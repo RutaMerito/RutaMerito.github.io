@@ -10,7 +10,7 @@ Pueden estar sujetos a los derechos que correspondan, entre otros:
 
 - **RutaMérito** y **Ruta al Mérito** como signos distintivos, nombres o identificadores.
 - **Ruta al Empleo Público**, **Ruta al Saber 11**, **Ruta al Saber Pro**, **Ruta a PISA** y **Ruta a Evaluar para Avanzar / Pruebas Saber** como denominaciones de proyectos.
-- **Mérito Crypto Node** como denominación de un proyecto tecnológico independiente.
+- **ANHETech Crypto Node™** como denominación de un proyecto tecnológico independiente.
 - **¡¡¡Tu camino al éxito!!!** como lema de la organización.
 - Nombres, denominaciones, combinaciones distintivas, logotipos, símbolos, composiciones y demás elementos gráficos.
 - La identidad visual, incluyendo decisiones de diseño y presentación.
