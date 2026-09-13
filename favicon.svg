@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RutaMérito">
+  <rect width="64" height="64" fill="#09244a"/>
+  <path d="M16 48V16h17c9 0 14 4 14 11 0 5-3 9-8 10l10 11H38l-9-10h-4v10H16Zm9-18h7c4 0 6-1 6-4s-2-4-6-4h-7v8Z" fill="#fff"/>
+  <rect x="46" y="10" width="8" height="8" fill="#f4c542"/>
+</svg>
