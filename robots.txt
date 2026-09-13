@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rutamerito.github.io/sitemap.xml
