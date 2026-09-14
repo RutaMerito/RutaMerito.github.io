@@ -50,3 +50,23 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.project-card,.tech-card,.button{transition:none}}
 @media(max-width:430px){.hero-actions{display:grid}.button{justify-content:space-between}.hero-visual{transform:scale(.63);width:159%;height:275px}.concept-row{gap:16px}.project-footer{align-items:flex-start;flex-direction:column}.footer-nav{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:30px;min-width:0}.footer-nav div{min-width:0}.footer-nav div:last-child{grid-column:span 2}.footer-nav a{overflow-wrap:anywhere}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.project-card,.tech-card,.button{transition:none}}
+
+/* Seccion Conoce nuestras aplicaciones -- detalles por producto */
+.project-grid-detail{row-gap:26px}
+.project-section-label{display:block;margin:18px 0 8px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.project-impact{margin:0 0 12px;font-size:18px;line-height:1.45;font-weight:800;color:var(--blue-900)}
+.project-content p{margin:0 0 10px}
+.project-content p:last-child{margin-bottom:0}
+.project-benefits{margin:0;padding:0;list-style:none}
+.project-benefits li{position:relative;padding-left:20px;margin:7px 0;font-size:14px;line-height:1.6}
+.project-benefits li:before{content:'';position:absolute;left:0;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--yellow)}
+.project-step{margin:2px 0;font-weight:800;color:var(--blue-900)}
+.project-note{font-size:13px;line-height:1.6;color:var(--muted)}
+.project-closing{margin:14px 0 0;font-size:14px;color:var(--blue-900)}
+.project-closing strong{font-weight:800}
+@media(min-width:801px){.project-grid-detail{grid-template-columns:1fr}.project-grid-detail .project-card{min-height:0}.project-grid-detail .project-main{grid-column:auto;grid-template-columns:1fr;min-height:0}.project-grid-detail .card-top{min-height:auto;padding:15px 25px}}
+.project-main .project-impact,.project-main .project-step,.project-main .project-closing{color:#fff}
+.project-main .project-section-label{color:var(--yellow)}
+.project-main .project-meta,.project-main .card-note{color:#cfe0f2}
+.project-main .project-note{color:#cfe0f2}
+.project-main .project-footer{border-top-color:rgba(255,255,255,.16)}
