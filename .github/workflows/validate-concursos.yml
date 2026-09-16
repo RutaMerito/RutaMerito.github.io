@@ -1,0 +1,87 @@
+name: Validate concursos manifest
+
+on:
+  push:
+    paths:
+      - "data/concursos.json"
+  pull_request:
+    paths:
+      - "data/concursos.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON schema
+        run: |
+          set -euo pipefail
+          FILE="data/concursos.json"
+          if [ ! -f "$FILE" ]; then echo "::error::File not found: $FILE"; exit 1; fi
+
+          # Parse JSON
+          if ! python3 -c "import json, sys; json.load(open('$FILE')); print('JSON parse OK')" 2>&1; then
+            echo "::error::Invalid JSON syntax"
+            exit 1
+          fi
+
+          # Run detailed validation
+          python3 - <<'PYEOF'
+          import json, sys
+
+          with open("data/concursos.json") as f:
+              data = json.load(f)
+
+          errors = []
+
+          # Meta check
+          meta = data.get("meta", {})
+          version = meta.get("manifestVersion", 0)
+          if version < 3:
+              errors.append(f"manifestVersion must be >= 3, got {version}")
+
+          # Concursos check
+          concursos = data.get("concursos", [])
+          if len(concursos) == 0:
+              errors.append("No concursos in manifest")
+
+          tags = []
+          ids = []
+          for i, c in enumerate(concursos):
+              cid = c.get("id", f"index_{i}")
+              if not c.get("id"):
+                  errors.append(f"[{i}] Missing id")
+              if not c.get("convocatoriaTag"):
+                  errors.append(f"[{cid}] Missing convocatoriaTag")
+              else:
+                  tags.append(c["convocatoriaTag"])
+              if not c.get("nombreOficial") and not c.get("nombre"):
+                  errors.append(f"[{cid}] Missing nombreOficial and nombre")
+              if not c.get("entidad"):
+                  errors.append(f"[{cid}] Missing entidad")
+
+          # Duplicates
+          seen = set()
+          for t in tags:
+              if t in seen:
+                  errors.append(f"Duplicate convocatoriaTag: {t}")
+              seen.add(t)
+
+          # Check PROCURADURÍA entry
+          procuraduria = next((c for c in concursos if "PROCURADUR" in c.get("convocatoriaTag", "").upper()), None)
+          if not procuraduria:
+              errors.append("Missing PROCURADURÍA entry")
+          else:
+              if "Mérito" not in procuraduria.get("nombreOficial", procuraduria.get("nombre", "")):
+                  errors.append("PROCURADURÍA nombreOficial should contain official name")
+              if procuraduria.get("entidad") != "Procuraduría General de la Nación":
+                  errors.append(f"PROCURADURÍA entidad wrong: {procuraduria.get('entidad')}")
+
+          if errors:
+              for e in errors:
+                  print(f"::error::{e}", file=sys.stderr)
+              sys.exit(1)
+
+          print(f"Validation OK: {len(concursos)} concursos, manifestVersion={version}")
+          PYEOF
