@@ -1,0 +1,468 @@
+{
+  "meta": {
+    "manifestVersion": 1,
+    "actualizado": "2026-09-15",
+    "fuente": "CNSC / SIMO y entidades oficiales (verificado el 15 de septiembre de 2026)",
+    "urlFuente": "https://rutamerito.github.io/data/concursos.json"
+  },
+  "concursos": [
+    {
+      "id": "dian_2676_2025",
+      "convocatoriaTag": "DIAN 2676 - 2025",
+      "nombre": "DIAN 2676 - 2025",
+      "entidad": "Dirección de Impuestos y Aduanas Nacionales",
+      "ambito": "Nacional",
+      "anio": 2026,
+      "numeroConvocatoria": "2676 de 2025",
+      "descripcion": "Preparación específica para el proceso de selección de la DIAN. Incluye 150 preguntas por nivel de empleo (Asistencial, Técnico, Profesional) con temáticas de tributación, aduanas, fiscalización y normativa DIAN, complementadas con el banco general de 1.250 preguntas.",
+      "fechaInicioInscripcion": "2026-01-28",
+      "fechaFinInscripcion": "2026-02-07",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/dian-2676",
+      "fuenteOficial": "CNSC / SIMO",
+      "fechas": [
+        {
+          "tipoFecha": "INICIO_INSCRIPCION",
+          "fecha": "2026-01-28",
+          "descripcion": "Inicio de inscripciones (SIMO)",
+          "fuente": "CNSC / SIMO — Proceso DIAN 2676 de 2025",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "CIERRE_INSCRIPCION",
+          "fecha": "2026-02-07",
+          "descripcion": "Cierre de inscripciones (ampliado)",
+          "fuente": "CNSC / SIMO — Proceso DIAN 2676 de 2025",
+          "confirmada": true
+        }
+      ]
+    },
+    {
+      "id": "ese",
+      "convocatoriaTag": "ESE",
+      "nombre": "ESE",
+      "entidad": "Empresas Sociales del Estado",
+      "ambito": "Nacional",
+      "anio": 2026,
+      "descripcion": "Convocatoria para el ingreso y ascenso en Empresas Sociales del Estado del territorio nacional. Dirigido a profesionales del área de salud que deseen prestar servicios en instituciones hospitalarias públicas.",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/empresas-sociales-del-estado-2",
+      "fechas": []
+    },
+    {
+      "id": "docente_2026",
+      "convocatoriaTag": "DOCENTE 2026",
+      "nombre": "DOCENTE 2026",
+      "entidad": "Comisión Nacional del Servicio Civil (CNSC) / Ministerio de Educación Nacional",
+      "ambito": "Nacional",
+      "estado": "PROXIMAMENTE",
+      "anio": 2026,
+      "descripcion": "Convocatoria para docentes y directivos docentes en instituciones educativas oficiales del sector público. Más de 28.000 vacantes a nivel nacional. Evalúa Prueba de Aptitudes y Competencias Básicas, Prueba Psicotécnica, Prueba de Entrevista y Valoración de Antecedentes.",
+      "fechaUltimaActualizacion": "2026-08-25",
+      "urlOficial": "https://www.mineducacion.gov.co/",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "En etapa previa: proyectos de Acuerdo, Anexo Técnico y OPEC preliminar publicados en agosto de 2026; observaciones hasta el 25 de agosto. Inscripciones próximamente en SIMO.",
+      "fechas": []
+    },
+    {
+      "id": "distrito_6_2026",
+      "convocatoriaTag": "DISTRITO 6 2026",
+      "nombre": "DISTRITO 6 2026",
+      "entidad": "Servicio Público del Distrito 6",
+      "ambito": "Distrital",
+      "anio": 2026,
+      "descripcion": "Convocatoria para proveer cargos de carrera administrativa en el Distrito 6. Dirigido a profesionales en diversas áreas que buscan incorporarse al servicio público distrital.",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/distrito-capital-6",
+      "fechas": []
+    },
+    {
+      "id": "contraloria_2026",
+      "convocatoriaTag": "CONTRALORÍA 2026",
+      "nombre": "CONTRALORÍA 2026",
+      "entidad": "Contraloría General de la República",
+      "ambito": "Nacional",
+      "anio": 2026,
+      "descripcion": "Proceso de selección para la Contraloría General de la República. Evalúa competencias en control fiscal, auditoría pública, contaduría y conocimiento de la normatividad fiscal del Estado.",
+      "urlOficial": "https://www.contraloria.gov.co/",
+      "fechas": []
+    },
+    {
+      "id": "sena_2026",
+      "convocatoriaTag": "SENA 2026",
+      "nombre": "SENA 2026",
+      "entidad": "Servicio Nacional de Aprendizaje",
+      "ambito": "Nacional",
+      "estado": "SUSPENDIDO",
+      "anio": 2026,
+      "numeroConvocatoria": "2669 de 2024",
+      "descripcion": "Convocatoria para proveer cargos en el SENA a nivel nacional. Incluye Instructor, Profesional y Técnico. Evalúa conocimientos técnicos, pedagógicos y de gestión institucional.",
+      "fechaConvocatoria": "2024-12-31",
+      "fechaInicioInscripcion": "2025-10-27",
+      "fechaFinInscripcion": "2025-11-28",
+      "fechaUltimaActualizacion": "2026-07-30",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/sena-4",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "Proceso suspendido mediante Auto No. 476 del 29 de julio de 2026.",
+      "fechas": [
+        {
+          "tipoFecha": "CONVOCATORIA",
+          "fecha": "2024-12-31",
+          "descripcion": "Publicación del Acuerdo No. 207 de 2024",
+          "fuente": "CNSC — Proceso SENA 4 (No. 2669 de 2024)",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "INICIO_INSCRIPCION",
+          "fecha": "2025-10-27",
+          "descripcion": "Inicio de inscripciones (modalidad abierta)",
+          "fuente": "CNSC / SIMO — Proceso SENA 4 (No. 2669 de 2024)",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "CIERRE_INSCRIPCION",
+          "fecha": "2025-11-28",
+          "descripcion": "Finalización de inscripciones (ampliado)",
+          "fuente": "CNSC / SIMO — Proceso SENA 4 (No. 2669 de 2024)",
+          "confirmada": true
+        }
+      ]
+    },
+    {
+      "id": "registraduria_2026",
+      "convocatoriaTag": "REGISTRADURÍA 2026",
+      "nombre": "REGISTRADURÍA 2026",
+      "entidad": "Registraduría Nacional del Estado Civil",
+      "ambito": "Nacional",
+      "anio": 2026,
+      "descripcion": "Proceso de selección para la Registraduría Nacional. Evalúa conocimientos en derecho electoral, administración pública, censos y registro civil.",
+      "urlOficial": "https://www.registraduria.gov.co/",
+      "fechas": []
+    },
+    {
+      "id": "procuraduria_2026",
+      "convocatoriaTag": "PROCURADURÍA 2026",
+      "nombre": "PROCURADURÍA 2026",
+      "entidad": "Procuraduría General de la Nación",
+      "ambito": "Nacional",
+      "estado": "INSCRIPCIONES_ABIERTAS",
+      "anio": 2026,
+      "numeroConvocatoria": "Concurso Abierto de Méritos 2026",
+      "descripcion": "Convocatoria para proveer cargos en la Procuraduría General de la Nación. Evalúa conocimientos en derecho disciplinario, constitucional, administrativo y control de la función pública.",
+      "fechaConvocatoria": "2026-03-24",
+      "fechaUltimaActualizacion": "2026-09-02",
+      "urlOficial": "https://www.procuraduria.gov.co/procuraduria/concurso/Pages/default.aspx",
+      "fuenteOficial": "Procuraduría General de la Nación",
+      "observacionEstado": "Concurso Abierto de Méritos 2026 «Mérito, Construyendo Excelencia». Regulado por las Resoluciones 076 (24-mar-2026), 108 (23-abr-2026), 133 (20-may-2026), 212 (06-ago-2026) y 243 (02-sep-2026). Inscripciones a través de la plataforma oficial meritoconstruyendoexcelencia.com.co.",
+      "fechas": [
+        {
+          "tipoFecha": "CONVOCATORIA",
+          "fecha": "2026-03-24",
+          "descripcion": "Publicación de la Resolución 076 de 2026",
+          "fuente": "Procuraduría General de la Nación",
+          "confirmada": true
+        }
+      ]
+    },
+    {
+      "id": "ministerio_trabajo_2026",
+      "convocatoriaTag": "MINISTERIO DEL TRABAJO 2026",
+      "nombre": "MINISTERIO DEL TRABAJO 2026",
+      "entidad": "Ministerio del Trabajo",
+      "ambito": "Nacional",
+      "anio": 2026,
+      "descripcion": "Proceso de selección para el Ministerio del Trabajo. Evalúa conocimientos en legislación laboral, seguridad y salud en el trabajo, y administración pública.",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/ministerio-del-trabajo",
+      "fechas": []
+    },
+    {
+      "id": "inpec_11",
+      "convocatoriaTag": "INPEC",
+      "nombre": "INPEC",
+      "entidad": "Instituto Nacional Penitenciario y Carcelario",
+      "ambito": "Nacional",
+      "estado": "EN_EJECUCION",
+      "anio": 2026,
+      "numeroConvocatoria": "2668 de 2024",
+      "descripcion": "Convocatoria para proveer cargos en el INPEC. Dirigido a profesionales en derecho, psicología, trabajo social y áreas afines al sistema penitenciario y carcelario.",
+      "fechaEvaluacion": "2026-06-07",
+      "fechaUltimaActualizacion": "2026-07-30",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/inpec-11-cuerpo-de-custodia-y-vigilancia",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "Pruebas escritas aplicadas el 7 de junio de 2026; resultados definitivos publicados el 30 de julio de 2026. Continúa la valoración de aptitud física.",
+      "fechas": [
+        {
+          "tipoFecha": "PRUEBA",
+          "fecha": "2026-06-07",
+          "descripcion": "Pruebas escritas",
+          "fuente": "CNSC — Proceso INPEC 11 (No. 2668 de 2024)",
+          "confirmada": true
+        }
+      ]
+    },
+    {
+      "id": "icbf_2026",
+      "convocatoriaTag": "ICBF 2026",
+      "nombre": "ICBF 2026",
+      "entidad": "Instituto Colombiano de Bienestar Familiar",
+      "ambito": "Nacional",
+      "anio": 2026,
+      "descripcion": "Proceso de selección para el ICBF. Evalúa conocimientos en protección de derechos de niños, niñas y adolescentes, políticas públicas sociales y gestión institucional.",
+      "urlOficial": "https://www.icbf.gov.co/",
+      "fechas": []
+    },
+    {
+      "id": "fiscalia_2026",
+      "convocatoriaTag": "FISCALÍA 2026",
+      "nombre": "FISCALÍA 2026",
+      "entidad": "Fiscalía General de la Nación",
+      "ambito": "Nacional",
+      "anio": 2026,
+      "descripcion": "Convocatoria para proveer cargos en la Fiscalía General de la Nación. Evalúa conocimientos en derecho penal, procesal penal, investigación criminal y sistema de justicia transicional.",
+      "urlOficial": "https://www.fiscalia.gov.co/",
+      "fechas": []
+    },
+    {
+      "id": "territorial_10",
+      "convocatoriaTag": "TERRITORIAL 10",
+      "nombre": "TERRITORIAL 10",
+      "entidad": "Entidades Territoriales",
+      "ambito": "Territorial",
+      "estado": "EN_EJECUCION",
+      "anio": 2026,
+      "numeroConvocatoria": "2623 a 2634 de 2024",
+      "descripcion": "Proceso de selección para cargos de empleo público territorial nivel 10. Evaluación de conocimientos generales y específicos para el desempeño en entidades del nivel territorial.",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/entidades-del-orden-territorial-10",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "Proceso en ejecución según la CNSC. Sin cronograma 2026 publicado; se requieren actuaciones administrativas.",
+      "fechas": []
+    },
+    {
+      "id": "territorial_12",
+      "convocatoriaTag": "TERRITORIAL 12",
+      "nombre": "TERRITORIAL 12",
+      "entidad": "Entidades Territoriales",
+      "ambito": "Territorial",
+      "estado": "EN_EJECUCION",
+      "anio": 2026,
+      "numeroConvocatoria": "2681 a 2684 de 2025",
+      "descripcion": "Proceso de selección para cargos de empleo público territorial nivel 12. Evaluación dirigida a profesionales con experiencia en gestión pública a nivel territorial.",
+      "fechaConvocatoria": "2025-12-01",
+      "fechaInicioInscripcion": "2026-05-25",
+      "fechaFinInscripcion": "2026-06-12",
+      "fechaUltimaActualizacion": "2026-06-12",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/territorial-12",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "Inscripciones (modalidad abierto) finalizadas el 12 de junio de 2026. El proceso continúa.",
+      "fechas": [
+        {
+          "tipoFecha": "CONVOCATORIA",
+          "fecha": "2025-12-01",
+          "descripcion": "Publicación de acuerdos (Procesos No. 2681 a 2684 de 2025)",
+          "fuente": "CNSC — Territorial 12",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "INICIO_INSCRIPCION",
+          "fecha": "2026-05-25",
+          "descripcion": "Inicio de inscripciones (modalidad abierto)",
+          "fuente": "CNSC / SIMO — Territorial 12",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "CIERRE_INSCRIPCION",
+          "fecha": "2026-06-12",
+          "descripcion": "Finalización de inscripciones (modalidad abierto)",
+          "fuente": "CNSC / SIMO — Territorial 12",
+          "confirmada": true
+        }
+      ]
+    },
+    {
+      "id": "rama_judicial_2026",
+      "convocatoriaTag": "RAMA JUDICIAL 2026",
+      "nombre": "RAMA JUDICIAL 2026",
+      "entidad": "Rama Judicial del Poder Público",
+      "ambito": "Nacional",
+      "anio": 2026,
+      "descripcion": "Convocatoria para proveer cargos en la Rama Judicial. Evalúa conocimientos en derecho constitucional, administrativo, civil y procesal para cargos de apoyo y dirección judicial.",
+      "urlOficial": "https://www.ramajudicial.gov.co/",
+      "fechas": []
+    },
+    {
+      "id": "corpomojana_2026",
+      "convocatoriaTag": "CORPOMOJANA 2026",
+      "nombre": "CORPOMOJANA 2026",
+      "entidad": "Corporación Mojayana",
+      "ambito": "Nacional",
+      "estado": "EN_EJECUCION",
+      "anio": 2026,
+      "descripcion": "Convocatoria para proveer cargos en Corpomojana. Proceso de selección para profesionales que desean integrar esta entidad del sector público a nivel territorial.",
+      "fechaEvaluacion": "2026-08-16",
+      "fechaUltimaActualizacion": "2026-08-16",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/entidades-del-orden-nacional-y-corpomojana",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "Inscripciones finalizadas. La CNSC publicó citaciones a pruebas escritas para el 16 de agosto de 2026. El proceso continúa.",
+      "fechas": [
+        {
+          "tipoFecha": "PRUEBA",
+          "fecha": "2026-08-16",
+          "descripcion": "Citación a pruebas escritas",
+          "fuente": "CNSC — ENTIDADES DEL ORDEN NACIONAL Y CORPOMOJANA",
+          "confirmada": true
+        }
+      ]
+    },
+    {
+      "id": "car_2026",
+      "convocatoriaTag": "CAR",
+      "nombre": "CAR 2026",
+      "entidad": "Corporaciones Autónomas Regionales",
+      "ambito": "Nacional",
+      "estado": "PROXIMAMENTE",
+      "anio": 2026,
+      "descripcion": "Preparación para el proceso de selección de las Corporaciones Autónomas Regionales (CAR) convocado por la CNSC. Más de 1.700 vacantes en 32 entidades ambientales a nivel nacional. Inscripciones a partir del 22 de septiembre de 2026 a través de la plataforma SIMO.",
+      "fechaInicioInscripcion": "2026-09-22",
+      "fechaUltimaActualizacion": "2026-06-09",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/corporaciones-autonomas-regionales-car",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "Proyectos de Acuerdo y Anexo Técnico publicados; etapa de observaciones finalizada (3 al 9 de junio de 2026). Inscripciones a partir del 22 de septiembre de 2026 a través de SIMO.",
+      "fechas": [
+        {
+          "tipoFecha": "INICIO_INSCRIPCION",
+          "fecha": "2026-09-22",
+          "descripcion": "Inicio de inscripciones (proyectado)",
+          "fuente": "CNSC — Corporaciones Autónomas Regionales (CAR)",
+          "confirmada": true
+        }
+      ]
+    },
+    {
+      "id": "eon_2026",
+      "convocatoriaTag": "ENTIDADES DEL ORDEN NACIONAL 2026",
+      "nombre": "ENTIDADES DEL ORDEN NACIONAL 2026",
+      "entidad": "Entidades del Orden Nacional",
+      "ambito": "Nacional",
+      "estado": "EN_EJECUCION",
+      "anio": 2026,
+      "numeroConvocatoria": "2801 a 2806 de 2026",
+      "descripcion": "Proceso de selección Entidades del Orden Nacional 2026 (Procesos No. 2801 a 2806 de 2026) de la CNSC. Más de 1.500 vacantes en ADRES, Fondo de Previsión Social del Congreso, Fondo Nacional de Estupefacientes, INVIMA, Contaduría General de la Nación y UNP.",
+      "fechaConvocatoria": "2026-05-04",
+      "fechaInicioInscripcion": "2026-06-26",
+      "fechaFinInscripcion": "2026-07-23",
+      "fechaUltimaActualizacion": "2026-07-23",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/entidades-del-orden-nacional-2026",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "Inscripciones (modalidad ingreso) finalizadas el 23 de julio de 2026. El proceso continúa con la etapa de verificación de requisitos mínimos.",
+      "fechas": [
+        {
+          "tipoFecha": "CONVOCATORIA",
+          "fecha": "2026-05-04",
+          "descripcion": "Publicación de acuerdos (Procesos No. 2801 a 2806 de 2026)",
+          "fuente": "CNSC — Entidades del Orden Nacional 2026",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "INICIO_INSCRIPCION",
+          "fecha": "2026-06-26",
+          "descripcion": "Inicio de inscripciones (modalidad ingreso)",
+          "fuente": "CNSC / SIMO — Entidades del Orden Nacional 2026",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "CIERRE_INSCRIPCION",
+          "fecha": "2026-07-23",
+          "descripcion": "Finalización de inscripciones (modalidad ingreso)",
+          "fuente": "CNSC / SIMO — Entidades del Orden Nacional 2026",
+          "confirmada": true
+        }
+      ]
+    },
+    {
+      "id": "uapa_2026",
+      "convocatoriaTag": "ENTIDADES DEL ORDEN TERRITORIAL Y UAPA",
+      "nombre": "ENTIDADES DEL ORDEN TERRITORIAL Y UAPA",
+      "entidad": "Entidades del Orden Territorial y UApA",
+      "ambito": "Nacional",
+      "estado": "EN_EJECUCION",
+      "anio": 2026,
+      "numeroConvocatoria": "2699 a 2727 de 2025",
+      "descripcion": "Proceso de selección Entidades del Orden Territorial y UApA (Procesos No. 2699 a 2727 de 2025) de la CNSC. Más de 1.400 vacantes en 29 entidades de Bogotá y ocho departamentos.",
+      "fechaInicioInscripcion": "2026-05-05",
+      "fechaFinInscripcion": "2026-05-21",
+      "fechaUltimaActualizacion": "2026-05-21",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/entidades-del-orden-territorial-y-unidad-de-alimentos-para-aprender-uapa",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "Inscripciones (modalidad abierto) finalizadas el 19 de mayo de 2026 (ampliadas hasta el 21 de mayo). El proceso continúa.",
+      "fechas": [
+        {
+          "tipoFecha": "INICIO_INSCRIPCION",
+          "fecha": "2026-05-05",
+          "descripcion": "Inicio de inscripciones (modalidad abierto)",
+          "fuente": "CNSC / SIMO — Entidades del Orden Territorial y UApA",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "CIERRE_INSCRIPCION",
+          "fecha": "2026-05-19",
+          "descripcion": "Finalización de inscripciones (ampliada hasta el 21 de mayo)",
+          "fuente": "CNSC / SIMO — Entidades del Orden Territorial y UApA",
+          "confirmada": true
+        }
+      ]
+    },
+    {
+      "id": "dc7_t14_2026",
+      "convocatoriaTag": "DISTRITO CAPITAL 7 Y TERRITORIAL 14",
+      "nombre": "DISTRITO CAPITAL 7 Y TERRITORIAL 14",
+      "entidad": "Distrito Capital 7 y Territorial 14",
+      "ambito": "Nacional",
+      "estado": "PROXIMAMENTE",
+      "anio": 2026,
+      "descripcion": "Proceso de selección Distrito Capital 7 y Territorial 14 (2026) de la CNSC. En etapa de divulgación: proyectos de Acuerdo y Anexo Técnico publicados y respuestas a observaciones emitidas. Inscripciones próximamente en SIMO.",
+      "fechaUltimaActualizacion": "2026-07-09",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/distrito-capital-7-y-territorial-14",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "En etapa de divulgación: proyectos de Acuerdo y Anexo Técnico publicados; observaciones finalizadas. Inscripciones próximamente en SIMO.",
+      "fechas": []
+    },
+    {
+      "id": "ese_2_2026",
+      "convocatoriaTag": "ESE 2 2026",
+      "nombre": "ESE 2 2026",
+      "entidad": "Empresas Sociales del Estado 2",
+      "ambito": "Nacional",
+      "estado": "EN_EJECUCION",
+      "anio": 2026,
+      "numeroConvocatoria": "2808, 2812 de 2026",
+      "descripcion": "Proceso de selección Empresas Sociales del Estado 2 (Abierto y Ascenso) de la CNSC. Más de 2.400 vacantes en Empresas Sociales del Estado (hospitales públicos) de 22 departamentos y Bogotá.",
+      "fechaConvocatoria": "2026-04-14",
+      "fechaInicioInscripcion": "2026-07-15",
+      "fechaFinInscripcion": "2026-07-30",
+      "fechaUltimaActualizacion": "2026-07-30",
+      "urlOficial": "https://www.cnsc.gov.co/convocatorias/empresas-sociales-del-estado-2",
+      "fuenteOficial": "CNSC",
+      "observacionEstado": "Inscripciones (modalidad abierto) finalizadas el 30 de julio de 2026. El proceso continúa.",
+      "fechas": [
+        {
+          "tipoFecha": "CONVOCATORIA",
+          "fecha": "2026-04-14",
+          "descripcion": "Publicación de acuerdos (Procesos No. 2808, 2812 de 2026)",
+          "fuente": "CNSC — Empresas Sociales del Estado 2",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "INICIO_INSCRIPCION",
+          "fecha": "2026-07-15",
+          "descripcion": "Inicio de inscripciones (modalidad abierto)",
+          "fuente": "CNSC / SIMO — Empresas Sociales del Estado 2",
+          "confirmada": true
+        },
+        {
+          "tipoFecha": "CIERRE_INSCRIPCION",
+          "fecha": "2026-07-30",
+          "descripcion": "Finalización de inscripciones (modalidad abierto)",
+          "fuente": "CNSC / SIMO — Empresas Sociales del Estado 2",
+          "confirmada": true
+        }
+      ]
+    }
+  ]
+}
