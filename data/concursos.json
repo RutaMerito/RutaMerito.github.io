@@ -1,6 +1,6 @@
 {
   "meta": {
-    "manifestVersion": 2,
+    "manifestVersion": 3,
     "actualizado": "2026-09-16",
     "fuente": "CNSC / SIMO y entidades oficiales (verificado el 16 de septiembre de 2026)",
     "urlFuente": "https://rutamerito.github.io/data/concursos.json"
@@ -9,7 +9,7 @@
     {
       "id": "dian_2676_2025",
       "convocatoriaTag": "DIAN 2676 - 2025",
-      "nombre": "DIAN 2676 - 2025",
+      "nombreOficial": "Proceso de Selección No. 2676 de 2025 – DIAN",
       "entidad": "Dirección de Impuestos y Aduanas Nacionales",
       "ambito": "Nacional",
       "anio": 2026,
@@ -39,7 +39,7 @@
     {
       "id": "ese",
       "convocatoriaTag": "ESE",
-      "nombre": "ESE",
+      "nombreOficial": "Empresas Sociales del Estado",
       "entidad": "Empresas Sociales del Estado",
       "ambito": "Nacional",
       "anio": 2026,
@@ -50,7 +50,7 @@
     {
       "id": "docente_2026",
       "convocatoriaTag": "DOCENTE 2026",
-      "nombre": "DOCENTE 2026",
+      "nombreOficial": "Docentes y Directivos Docentes 2026",
       "entidad": "Comisión Nacional del Servicio Civil (CNSC) / Ministerio de Educación Nacional",
       "ambito": "Nacional",
       "estado": "PROXIMAMENTE",
@@ -65,7 +65,7 @@
     {
       "id": "distrito_6_2026",
       "convocatoriaTag": "DISTRITO 6 2026",
-      "nombre": "DISTRITO 6 2026",
+      "nombreOficial": "Distrito Capital 6 – 2026",
       "entidad": "Servicio Público del Distrito 6",
       "ambito": "Distrital",
       "anio": 2026,
@@ -76,7 +76,7 @@
     {
       "id": "contraloria_2026",
       "convocatoriaTag": "CONTRALORÍA 2026",
-      "nombre": "CONTRALORÍA 2026",
+      "nombreOficial": "Contraloría General de la República – 2026",
       "entidad": "Contraloría General de la República",
       "ambito": "Nacional",
       "anio": 2026,
@@ -87,7 +87,7 @@
     {
       "id": "sena_2026",
       "convocatoriaTag": "SENA 2026",
-      "nombre": "SENA 2026",
+      "nombreOficial": "Proceso de Selección SENA 4 (No. 2669 de 2024)",
       "entidad": "Servicio Nacional de Aprendizaje",
       "ambito": "Nacional",
       "estado": "SUSPENDIDO",
@@ -128,7 +128,7 @@
     {
       "id": "registraduria_2026",
       "convocatoriaTag": "REGISTRADURÍA 2026",
-      "nombre": "REGISTRADURÍA 2026",
+      "nombreOficial": "Registraduría Nacional del Estado Civil – 2026",
       "entidad": "Registraduría Nacional del Estado Civil",
       "ambito": "Nacional",
       "anio": 2026,
@@ -139,7 +139,7 @@
     {
       "id": "procuraduria_2026",
       "convocatoriaTag": "PROCURADURÍA 2026",
-      "nombre": "Mérito Construyendo Excelencia",
+      "nombreOficial": "Mérito Construyendo Excelencia",
       "entidad": "Procuraduría General de la Nación",
       "ambito": "Nacional",
       "estado": "INSCRIPCIONES_ABIERTAS",
@@ -164,7 +164,7 @@
     {
       "id": "ministerio_trabajo_2026",
       "convocatoriaTag": "MINISTERIO DEL TRABAJO 2026",
-      "nombre": "MINISTERIO DEL TRABAJO 2026",
+      "nombreOficial": "Ministerio del Trabajo – 2026",
       "entidad": "Ministerio del Trabajo",
       "ambito": "Nacional",
       "anio": 2026,
@@ -175,7 +175,7 @@
     {
       "id": "inpec_11",
       "convocatoriaTag": "INPEC",
-      "nombre": "INPEC",
+      "nombreOficial": "Proceso de Selección INPEC 11 (No. 2668 de 2024)",
       "entidad": "Instituto Nacional Penitenciario y Carcelario",
       "ambito": "Nacional",
       "estado": "EN_EJECUCION",
@@ -200,7 +200,7 @@
     {
       "id": "icbf_2026",
       "convocatoriaTag": "ICBF 2026",
-      "nombre": "ICBF 2026",
+      "nombreOficial": "Instituto Colombiano de Bienestar Familiar – 2026",
       "entidad": "Instituto Colombiano de Bienestar Familiar",
       "ambito": "Nacional",
       "anio": 2026,
@@ -211,7 +211,7 @@
     {
       "id": "fiscalia_2026",
       "convocatoriaTag": "FISCALÍA 2026",
-      "nombre": "FISCALÍA 2026",
+      "nombreOficial": "Fiscalía General de la Nación – 2026",
       "entidad": "Fiscalía General de la Nación",
       "ambito": "Nacional",
       "anio": 2026,
@@ -222,7 +222,7 @@
     {
       "id": "territorial_10",
       "convocatoriaTag": "TERRITORIAL 10",
-      "nombre": "TERRITORIAL 10",
+      "nombreOficial": "Proceso de Selección Territorial 10 (No. 2623 a 2634 de 2024)",
       "entidad": "Entidades Territoriales",
       "ambito": "Territorial",
       "estado": "EN_EJECUCION",
@@ -237,7 +237,7 @@
     {
       "id": "territorial_12",
       "convocatoriaTag": "TERRITORIAL 12",
-      "nombre": "TERRITORIAL 12",
+      "nombreOficial": "Proceso de Selección Territorial 12 (No. 2681 a 2684 de 2025)",
       "entidad": "Entidades Territoriales",
       "ambito": "Territorial",
       "estado": "EN_EJECUCION",
@@ -278,7 +278,7 @@
     {
       "id": "rama_judicial_2026",
       "convocatoriaTag": "RAMA JUDICIAL 2026",
-      "nombre": "RAMA JUDICIAL 2026",
+      "nombreOficial": "Rama Judicial del Poder Público – 2026",
       "entidad": "Rama Judicial del Poder Público",
       "ambito": "Nacional",
       "anio": 2026,
@@ -289,7 +289,7 @@
     {
       "id": "corpomojana_2026",
       "convocatoriaTag": "CORPOMOJANA 2026",
-      "nombre": "CORPOMOJANA 2026",
+      "nombreOficial": "Entidades del Orden Nacional y Corpomojana",
       "entidad": "Corporación Mojayana",
       "ambito": "Nacional",
       "estado": "EN_EJECUCION",
@@ -313,7 +313,7 @@
     {
       "id": "car_2026",
       "convocatoriaTag": "CAR",
-      "nombre": "CAR 2026",
+      "nombreOficial": "Corporaciones Autónomas Regionales (CAR)",
       "entidad": "Corporaciones Autónomas Regionales",
       "ambito": "Nacional",
       "estado": "PROXIMAMENTE",
@@ -337,7 +337,7 @@
     {
       "id": "eon_2026",
       "convocatoriaTag": "ENTIDADES DEL ORDEN NACIONAL 2026",
-      "nombre": "ENTIDADES DEL ORDEN NACIONAL 2026",
+      "nombreOficial": "Entidades del Orden Nacional 2026 (Procesos No. 2801 a 2806)",
       "entidad": "Entidades del Orden Nacional",
       "ambito": "Nacional",
       "estado": "EN_EJECUCION",
@@ -378,7 +378,7 @@
     {
       "id": "uapa_2026",
       "convocatoriaTag": "ENTIDADES DEL ORDEN TERRITORIAL Y UAPA",
-      "nombre": "ENTIDADES DEL ORDEN TERRITORIAL Y UAPA",
+      "nombreOficial": "Entidades del Orden Territorial y UApA",
       "entidad": "Entidades del Orden Territorial y UApA",
       "ambito": "Nacional",
       "estado": "EN_EJECUCION",
@@ -411,7 +411,7 @@
     {
       "id": "dc7_t14_2026",
       "convocatoriaTag": "DISTRITO CAPITAL 7 Y TERRITORIAL 14",
-      "nombre": "DISTRITO CAPITAL 7 Y TERRITORIAL 14",
+      "nombreOficial": "Distrito Capital 7 y Territorial 14",
       "entidad": "Distrito Capital 7 y Territorial 14",
       "ambito": "Nacional",
       "estado": "PROXIMAMENTE",
@@ -426,7 +426,7 @@
     {
       "id": "ese_2_2026",
       "convocatoriaTag": "ESE 2 2026",
-      "nombre": "ESE 2 2026",
+      "nombreOficial": "Empresas Sociales del Estado 2 (Abierto y Ascenso)",
       "entidad": "Empresas Sociales del Estado 2",
       "ambito": "Nacional",
       "estado": "EN_EJECUCION",
