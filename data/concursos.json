@@ -1,8 +1,8 @@
 {
   "meta": {
-    "manifestVersion": 1,
-    "actualizado": "2026-09-15",
-    "fuente": "CNSC / SIMO y entidades oficiales (verificado el 15 de septiembre de 2026)",
+    "manifestVersion": 2,
+    "actualizado": "2026-09-16",
+    "fuente": "CNSC / SIMO y entidades oficiales (verificado el 16 de septiembre de 2026)",
     "urlFuente": "https://rutamerito.github.io/data/concursos.json"
   },
   "concursos": [
@@ -139,16 +139,16 @@
     {
       "id": "procuraduria_2026",
       "convocatoriaTag": "PROCURADURÍA 2026",
-      "nombre": "PROCURADURÍA 2026",
+      "nombre": "Mérito Construyendo Excelencia",
       "entidad": "Procuraduría General de la Nación",
       "ambito": "Nacional",
       "estado": "INSCRIPCIONES_ABIERTAS",
       "anio": 2026,
       "numeroConvocatoria": "Concurso Abierto de Méritos 2026",
-      "descripcion": "Convocatoria para proveer cargos en la Procuraduría General de la Nación. Evalúa conocimientos en derecho disciplinario, constitucional, administrativo y control de la función pública.",
+      "descripcion": "Concurso Abierto de Méritos «Mérito, Construyendo Excelencia» para proveer cargos en la Procuraduría General de la Nación. Evalúa conocimientos en derecho disciplinario, constitucional, administrativo y control de la función pública.",
       "fechaConvocatoria": "2026-03-24",
       "fechaUltimaActualizacion": "2026-09-02",
-      "urlOficial": "https://www.procuraduria.gov.co/procuraduria/concurso/Pages/default.aspx",
+      "urlOficial": "https://meritoconstruyendoexcelencia.com.co/",
       "fuenteOficial": "Procuraduría General de la Nación",
       "observacionEstado": "Concurso Abierto de Méritos 2026 «Mérito, Construyendo Excelencia». Regulado por las Resoluciones 076 (24-mar-2026), 108 (23-abr-2026), 133 (20-may-2026), 212 (06-ago-2026) y 243 (02-sep-2026). Inscripciones a través de la plataforma oficial meritoconstruyendoexcelencia.com.co.",
       "fechas": [
