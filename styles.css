@@ -70,3 +70,4 @@
 .project-main .project-meta,.project-main .card-note{color:#cfe0f2}
 .project-main .project-note{color:#cfe0f2}
 .project-main .project-footer{border-top-color:rgba(255,255,255,.16)}
+@media(max-width:800px){.menu-toggle{min-width:44px;min-height:44px}.nav-links>a{min-height:44px}.nav-links .nav-social a{width:44px;height:44px}}
